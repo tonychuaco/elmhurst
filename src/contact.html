@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<title>Contact</title>
+@@include("./partials/header.html")
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+<div class="container-fluid" style="background-image: url(assets/images/background-contact.jpg); background-size: cover; background-position: top center;">
+<header class="header-section">
+  <div class="flex-start">
+      <div class="col-lg-8 main-form">
+        <h1>Contact</h1>
+        <main class="main-content">
+          <form>
+            <fieldset class="form-contact">
+              <div class="form-group">
+                <label for="fullName">Name: </label><input id="fullName" class="form-control" type="text">
+              </div>
+              <div class="form-group">  
+                <label>Email: </label><input type="email" id="email" class="form-control">
+              </div>
+            </fieldset>
+            <fieldset>
+              <div class="form-group">
+                <label>Message: </label>
+                <textarea class="form-message form-control" rows="3"></textarea>
+              </div>
+              <div>
+                <a href="https://tonychua.com"><button type="button" id="submit" class="btn btn-success">Contact Now</button></a>
+              </div>
+            </fieldset>
+          </form>
+        </main>
+      </div>
+      <div class="col-lg-4 side-contact">
+        <aside class="related-content">
+          <div>
+          <div style="background-color: rgba(255,255,255,.92); color: white" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="tonychuaco"><a class="LI-simple-link" href='https://www.linkedin.com/in/tonychuaco?trk=profile-badge'>Anthony Djoewanda</a></div>
+          <br>
+          <h3>Find My Channels</h3>
+          <p>Follow my social media @tonychuaco. Connect online and start joining the conversation.</p>
+          <ul class="social-icons">
+            <li><a href="https://tonychua.com" target="_blank"><i class="fa fa-globe"></i></a></li>
+            <li><a href="https://twitter.com/tonychuaco/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/tonychuaco/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/tonychuaco" target="_blank"><i class="fa fa-github"></i></a></li>
+          </ul>
+          </div>
+        </aside>
+      </div>
+  </div>    
+</header>
+</div>
+
+@@include("./partials/footer.html")
