@@ -169,7 +169,8 @@ body {
 @media (min-width: 250px) and (max-width: 767px) {
     .header-section {
         padding-bottom: 4.5rem;
-    }
+        height: initial;
+      }
 
     .side-contact {
         padding-bottom: 4.5rem;
@@ -180,14 +181,16 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
     .header-section {
         padding-bottom: 4.5rem;
-    }
+        height: initial;
+      }
 }
 
 /* Large */
 @media (min-width: 992px) and (max-width: 1199px) {
     .header-section {
         padding-bottom: 4.5rem;
-    }
+        height: initial;
+      }
 }
 
 /* Extra Large */
